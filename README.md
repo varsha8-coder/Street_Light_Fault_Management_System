@@ -143,7 +143,7 @@ Mobile support:
 ## 👩‍💻 Author
 **S. Thanvarsha**  
 B.Tech AI & DS  
-Batch 4  
+Batch 3
 
 ---
 
