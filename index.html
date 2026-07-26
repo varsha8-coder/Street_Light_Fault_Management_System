@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Street Light Fault Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="display:flex; align-items:center; padding:10px; background:#1a237e; color:white;">
+  <img src="light.png" width="50" height="50">
+  <h1 style="margin-left:15px; font-size:22px;">Street Light Fault Management System</h1>
+</div>
+<div class="container">
+  <input type="text" id="search" placeholder="Search street">
+  <button onclick="searchData()">Search</button>
+  <select id="filter" onchange="filterData()">
+    <option value="all">All</option>
+    <option value="Pending">Pending</option>
+    <option value="Fixed">Fixed</option>
+  </select>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Street</th>
+        <th>Ward</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+  <p id="count"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
